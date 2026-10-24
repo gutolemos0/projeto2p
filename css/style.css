@@ -458,4 +458,16 @@ body{
     .pagamento-grid{ grid-template-columns: 1fr; }
     .resumo-pedido{ position: static; order: -1; }
     .resumo-acoes .btn{ width: 100%; text-align: center; }
+
+    .item-carrinho img{ grid-area: img; width: 60px; height: 60px; }
+    .item-info{ grid-area: info; }
+    .item-remover{ grid-area: rem; }
+    .item-qtd{ grid-area: qtd; }
+    .item-subtotal{ grid-area: sub; }
+    .pagamento-grid{ grid-template-columns: 1fr; }
+    .resumo-pedido{ position: static; order: -1; }
+    .resumo-acoes .btn{ width: 100%; text-align: center; }
+
 }
+
+
